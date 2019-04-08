@@ -1,0 +1,14 @@
+query selectCommodities {
+  description: "Select all commodities"
+  statement:
+      SELECT org.example.biznet.SampleParticipant
+}
+
+query selectCommoditiesByExchange {
+  description: "Select all commodities based on their main exchange"
+  statement:
+      SELECT org.example.biznet.SampleParticipant
+          WHERE (firstName==_$Participant_name)
+}
+
+
