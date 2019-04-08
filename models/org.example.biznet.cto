@@ -34,10 +34,13 @@ transaction SampleTransaction {
   --> SampleAsset asset
   o String newValue
   --> SampleParticipant newOwner
+  o String newName
+  o String newlastName optional
 }
 
 event SampleEvent {
   --> SampleAsset asset
   o String oldValue
   o String newValue
+  
 }

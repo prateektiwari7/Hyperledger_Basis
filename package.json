@@ -3,7 +3,7 @@
     "composer": "^0.19.20"
   },
   "name": "users",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "description": "user mangement",
   "scripts": {
     "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/users.bna",
